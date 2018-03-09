@@ -39,3 +39,7 @@ LevelDesign/sysinfo.txt
 # Builds
 LevelDesign/*.apk
 LevelDesign/*.unitypackage
+
+#Large Files
+LevelDesign/Game_Data/
+LevelDesign/FuryRoad69_Data/

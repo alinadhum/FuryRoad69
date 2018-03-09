@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 59a36b37b8537ce48bdc383c39d16792
+timeCreated: 1460997397
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - CrazySparks: {fileID: 100000, guid: c8fd86fe5050dc04bb501b291c30f591, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

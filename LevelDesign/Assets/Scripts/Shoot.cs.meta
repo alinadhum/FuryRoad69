@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 300ee9ccecf51e24e93352d19d811b70
+timeCreated: 1460567005
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - bulletHole: {fileID: 175984, guid: bb20a4ede637b7f41ab9bb11b238c254, type: 2}
+  - gunsound: {fileID: 8300000, guid: b28452f9a389abe4d80403db6e7b981a, type: 3}
+  - muzzleflash: {fileID: 119046, guid: dcf1252917904a948a6adb205616b26e, type: 2}
+  - bulletTracer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -127,24 +127,27 @@ function EngineSound(){
         gearMinValue = gearRatio[i-1];
     }
     gearMaxValue = gearRatio[i];
+
     var enginePitch : float = ((currentSpeed - gearMinValue)/(gearMaxValue - gearMinValue) + 1);
     GetComponent.<AudioSource>().pitch = enginePitch;
 }
 
 function ReverseSlip(){
     if (currentSpeed < 0){
-        SetFrontSlip(slipForwardFriction ,slipSidewayFriction);
+        SetFrontSlip(slipForwardFriction, slipSidewayFriction);
     }
     else {
-        SetFrontSlip(myForwardFriction ,mySidewayFriction);
+        SetFrontSlip(myForwardFriction, mySidewayFriction);
     }
 }
+
 function SetRearSlip (currentForwardFriction : float,currentSidewayFriction : float){
     rearWheel1.forwardFriction.stiffness = currentForwardFriction;
     rearWheel2.forwardFriction.stiffness = currentForwardFriction;
     rearWheel1.sidewaysFriction.stiffness = currentSidewayFriction;
     rearWheel2.sidewaysFriction.stiffness = currentSidewayFriction;
 }
+
 function SetFrontSlip (currentForwardFriction : float,currentSidewayFriction : float){
     frontWheel1.forwardFriction.stiffness = currentForwardFriction;
     frontWheel2.forwardFriction.stiffness = currentForwardFriction;

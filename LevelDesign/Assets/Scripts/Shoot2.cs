@@ -38,7 +38,7 @@ public class Shoot2 : MonoBehaviour {
 	void Update()
 	{
 
-		if (Input.GetButton("Fire2") || Input.GetKey(KeyCode.Space))
+		if (Input.GetButton("Fire2"))
 		{
 			RaycastHit hit;
 			Ray bullet = new Ray(transform.position, transform.forward);

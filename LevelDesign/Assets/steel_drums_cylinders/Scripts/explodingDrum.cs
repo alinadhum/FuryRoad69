@@ -14,7 +14,7 @@ public class explodingDrum : MonoBehaviour, IDamageable, IDamageableRay, IDamage
     private bool hasBeenHitByExplosion = false;
     private float explosionHitDamage;
     private bool explode = false;
-    private bool hasBeenHit = false;
+    public bool hasBeenHit = false;
     private bool fireStarted = false;
     private bool explodeOnce = true;
     private float hitPoints = 80f;
@@ -27,8 +27,8 @@ public class explodingDrum : MonoBehaviour, IDamageable, IDamageableRay, IDamage
     }
 
     void Update()
-    {
-        if(hasBeenHit)
+	{
+	if(hasBeenHit)
         {
             hasBeenHit = false;
             fireStarted = true;

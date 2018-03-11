@@ -45,7 +45,7 @@ public class Shoot : MonoBehaviour {
             GetComponent<AudioSource>().PlayOneShot(gunsound);
 			if (Physics.Raycast(bullet, out hit, shootDistance))	
 			{	
-				if (hit.transform.name == "Car2(Red)" || hit.collider.tag == "Desert")	
+				if (hit.transform.name == "Car2(Red)" || hit.collider.tag == "Desert" || hit.transform.name == "exploding_steel_drum")	
 				{
 					Instantiate(bulletHole, hit.point, Quaternion.FromToRotation(Vector3.forward, hit.normal));
 					if (bulletImpact.gameObject != null) {

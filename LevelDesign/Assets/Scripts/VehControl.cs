@@ -30,10 +30,6 @@ public class VehControl : MonoBehaviour
     public float gearDownRPM;
 
     private GameObject COM;
-	private float mySidewayFriction;
-	private float myForwardFriction;
-	private float slipSidewayFriction;
-	private float slipForwardFriction;
 
 	public bool handBraked;
 	public float soundRPM;
@@ -47,8 +43,7 @@ public class VehControl : MonoBehaviour
 	public ParticleSystem exhaust;
 	private Light BL_light;
 	private Light BR_light;
-	private float topSpeed = 120; 
-	private float pitch = 0;
+
 	public List<AudioSource> CarSound;
 
     void Start()
@@ -61,12 +56,13 @@ public class VehControl : MonoBehaviour
 
 		COM = GameObject.Find("CenterOfGravity");
         GetComponent<Rigidbody>().centerOfMass = new Vector3(COM.transform.localPosition.x * transform.localScale.x, COM.transform.localPosition.y * transform.localScale.y, COM.transform.localPosition.z * transform.localScale.z);		            
-		BL_light = GameObject.Find ("LeftLight(back2)").GetComponent<Light> ();
-		BR_light = GameObject.Find ("RightLight(back2)").GetComponent<Light> ();
+		Transform BlackCarRearLights = GameObject.Find ("Lights_black").transform.GetChild (0);
+		BL_light = BlackCarRearLights.GetChild(0).GetComponent<Light>();
+		BR_light = BlackCarRearLights.GetChild(1).GetComponent<Light>();
 		BL_light.intensity = 0.5f;
 		BR_light.intensity = 0.5f;
 
-		for(int i =1; i<=16; ++i) 
+		for(int i = 1; i <= 11; ++i) 
 		{
 			CarSound.Add(GameObject.Find(string.Format("CarSound ({0})",i)).GetComponent<AudioSource>());
 			CarSound[i-1].Play();
@@ -90,6 +86,7 @@ public class VehControl : MonoBehaviour
 
 		if (Math.Round (currentSpeed) >= 0) {
 			SpeedText.text = "Speed: " + Math.Round (currentSpeed).ToString () + " km/h";
+			SpeedText.color = Color.green;
 		}
 		if (Math.Round (currentSpeed) <= 0) {
 			exhaust.emissionRate = 1;

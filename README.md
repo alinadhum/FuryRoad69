@@ -1,5 +1,6 @@
-			==== THANK YOU FOR TRYING FURYROAD 69 =====
-
+					
+THANK YOU FOR TRYING FURYROAD 69
+===================
 Game is currently under devevlopment there is still some parts to be build and tested. Anyway this
 game was the result of our Game development course and we hope that you enjoy playing our the very
 first Unity game. 
@@ -12,7 +13,7 @@ Game Version: Fury Road 69 v0.1
 
 Game Engine: Unity
 
-	==== INSTRUCTIONS =====
+## INSTRUCTIONS ##
 
 1. MOVEMENT:
 
@@ -24,14 +25,14 @@ Game Engine: Unity
 	RED CAR => Space bar or optionally left ctrl button
 	BLACK CAR => Right Mouse button or optionally right ctrl button 
 	
-		==== RESOURCES =====
+## RESOURCES ##	
 
 All resources in this game starting from car models to sounds and background music are taken from
 different websites such as: 
 www.soundeffect.com
 www.HDWALLPAPER.com
 
-		==== TO_BE_DEVELOPED =====
+## TO_BE_DEVELOPED ##
 
 1. Pause menu 
 2. Restart object option for instance press(R) if your car is stuck

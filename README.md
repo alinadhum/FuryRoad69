@@ -1,4 +1,4 @@
-			==== THANK YOU FOR DOWNLOADING OUR FURY ROAD 69 =====
+			==== THANK YOU FOR TRYING FURY ROAD 69 =====
 
 Game is currently under devevlopment there is still some parts to be build and tested. Anyway this
 game was the result of our Game development course and we hope that you enjoy playing our the very
@@ -6,9 +6,9 @@ first Unity game.
 
 Developers: 
 Ali Nadhum
-Matti Järvensivu
+Matti JÃ¤rvensivu
 
-Game Version: Fury Road 69 v0.1 
+Game Version: Fury Road 69 v0.1
 
 Game Engine: Unity
 **************INSTRUCTIONS****************

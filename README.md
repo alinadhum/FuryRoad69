@@ -34,7 +34,7 @@ different websites such as:
 www.soundeffect.com
 www.HDWALLPAPER.com
 
-## TO BE DEVELOPED ##
+## TODO ##
 
 1. Pause menu 
 2. Restart object option for instance press(R) if your car is stuck

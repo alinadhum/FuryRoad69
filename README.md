@@ -36,7 +36,7 @@ www.HDWALLPAPER.com
 
 ### TODO LIST ###
 
-1. Pause menu 
+1. Pause menu
 2. Restart object option for instance press(R) if your car is stuck
 3. Guns modifications affect players health
 4. Option button functionalty at the starting menu

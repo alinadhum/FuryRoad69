@@ -15,14 +15,16 @@ Game Engine: Unity
 
 ## INSTRUCTIONS ##
 
-1. MOVEMENT:
+1. **Movement**:
 
 	RED CAR => W,A,S and D
+	
 	BLACK CAR => ARROWS [left,up,down and right]
 
-2. SHOOTING:
+2. **Shooting**:
 
 	RED CAR => Space bar or optionally left ctrl button
+	
 	BLACK CAR => Right Mouse button or optionally right ctrl button 
 	
 ## RESOURCES ##	

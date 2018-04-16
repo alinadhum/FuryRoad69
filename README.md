@@ -12,7 +12,8 @@ Game Version: Fury Road 69 v0.1
 
 Game Engine: Unity
 
-==== INSTRUCTIONS =====
+	==== INSTRUCTIONS =====
+
 1. MOVEMENT:
 
 	RED CAR => W,A,S and D
@@ -23,13 +24,15 @@ Game Engine: Unity
 	RED CAR => Space bar or optionally left ctrl button
 	BLACK CAR => Right Mouse button or optionally right ctrl button 
 	
-==== RESOURCES =====
+		==== RESOURCES =====
+
 All resources in this game starting from car models to sounds and background music are taken from
 different websites such as: 
 www.soundeffect.com
 www.HDWALLPAPER.com
 
-==== TO_BE_DEVELOPED =====
+		==== TO_BE_DEVELOPED =====
+
 1. Pause menu 
 2. Restart object option for instance press(R) if your car is stuck
 3. Guns modifications affect players health
